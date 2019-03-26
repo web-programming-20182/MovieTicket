@@ -1,25 +1,28 @@
 body {
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    
+    background-image: url("conor-samuel-1363345-unsplash.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    -ms-background-size: auto;
 }
 
 .main-bg {
-    opacity: 0.5;
-    background-color: #ffefe8;
-    filter: alpha;
+    
     background-size: cover;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    -ms-background-size: auto;
     min-height: 100vh;
 }
 
 
 h1 {
     font-size: 2.8vw;
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 1.5vw 1vw 2vw;
     letter-spacing: 3px;
@@ -165,3 +168,7 @@ button
 button:hover {
     opacity: 0.5;
 } 
+.normal {
+    margin-top: 15px;
+    font-size: 14px;
+}
