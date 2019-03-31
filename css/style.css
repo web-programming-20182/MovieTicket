@@ -4,10 +4,13 @@ body{
 }
 
 .container{
-	background-color: #99FFFF;
+	background-color: #C1FFC1;
 }
 .header{
-
+	margin-left:-30px;
+}
+.logo{
+	
 }
 .account{
 	float: right;
@@ -18,9 +21,10 @@ body{
 	text-decoration: none;
 	font-size: 1.1em;
 	color: #912CEE;
+	
 }
 .account a:hover{
-	color: #FF3E96;
+	color: #000;
 }
 .account a:active{
 	color: #333300;
@@ -56,10 +60,7 @@ body{
 	background-image: linear-gradient(#FFFAF0,#F4A460);
 	color: #0000CD;
 }
-.menu-item a:active{
-	background-image: linear-gradient(#8B8989,#EECBAD);
-	color: yellow;
-}
+
 
 .menu-item a i{
 	float: right;
@@ -93,7 +94,8 @@ img.d-block{
 	font-size: 1.25em;
 }
 .content{
-	margin-top: 20px;
+	margin-top: 50px;
+	
 }
 .menu-bar-film{
 	margin-left: 15px;
@@ -112,4 +114,53 @@ img.d-block{
 }
 .card-title{
 	text-transform: uppercase;
+	color: #FF3333;
+	font-size: 1.3em;
+}
+.card{
+	max-height: 380px;
+}
+.card-block{
+	margin-left: 10px;
+
+}
+.card-block p{
+	margin-top: 20px;
+}
+.btn-loadmore{
+	float: right;
+	margin-right: 20px;
+}
+.tab-content{
+	margin-top: 30px;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	
+	z-index: 1;
+	list-style: none;
+	width: 300px;
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	width: 300px;
+	
+}
+a.dropdown-item{
+	width: 300px;
+	padding: 10px;
+	background-color:#98F5FF;
+	color:#000 ;
+	font-size: 1.1em;
+	border-radius: 3px;
+	border:1px solid #000;
+
 }
