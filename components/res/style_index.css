@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	background-image: url("panda-com-1241330-unsplash.jpg");
 	background-size: contain;
@@ -223,3 +224,171 @@ a.dropdown-item:last-child
 	background-color: #FEEAEB;
 	font-weight: bold;
 }
+=======
+body{
+	background-image: url(background.png);
+
+}
+
+.container{
+	background-color: #C1FFC1;
+}
+.header{
+	margin-left:-30px;
+}
+.logo{
+	
+}
+.account{
+	float: right;
+	margin-right: 2vw;
+	margin-top: 1.15vw;
+}
+.account a{
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #912CEE;
+	
+}
+.account a:hover{
+	color: #000;
+}
+.account a:active{
+	color: #333300;
+}
+.account a:visiter{
+	color: #000;
+}
+.menu-bar{
+	margin-top: 3vh;
+	margin-left: 1.13vw;
+	
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
+
+}
+.menu-item{
+
+	width: 16vw;
+	box-sizing: unset;
+	text-align: center;
+	border:1px solid #fff;
+	border-radius: 3px;
+	background-image:linear-gradient(#FF3333,#CC0099);
+	letter-spacing: 0.1em;
+}
+.menu-item a{
+	color: #fff;
+}
+.menu-item a:hover{
+	
+	background-image: linear-gradient(#FFFAF0,#F4A460);
+	color: #0000CD;
+}
+
+
+.menu-item a i{
+	float: right;
+	margin-top: 1.15vh;
+	margin-right: 4.5vw;
+}
+img.d-block{
+	width: 1140px;
+	height: 506px;
+}
+.carousel{
+
+}
+.film-carousel{
+	margin-top: 1.5vh;
+}
+.search form{
+	margin-top: 2vh;
+	float: right;
+
+}
+.search form input{
+	width: 300px;
+	height: 42px;
+	display: inline-block;
+
+}
+.search form button{
+	cursor: pointer;
+	letter-spacing: 0.03em;
+	font-size: 1.25em;
+}
+.content{
+	margin-top: 50px;
+	
+}
+.menu-bar-film{
+	margin-left: 15px;
+}
+.menu-bar-film a{
+	font-size: 1.2em;
+	background-color: yellow;
+	font-weight: bold;
+}
+.card-img-top{
+	width: 338px;
+	height: 200px;
+}
+.tab-content .row{
+	margin-bottom: 25px;
+}
+.card-title{
+	text-transform: uppercase;
+	color: #FF3333;
+	font-size: 1.3em;
+}
+.card{
+	max-height: 380px;
+}
+.card-block{
+	margin-left: 10px;
+
+}
+.card-block p{
+	margin-top: 20px;
+}
+.btn-loadmore{
+	float: right;
+	margin-right: 20px;
+}
+.tab-content{
+	margin-top: 30px;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	
+	z-index: 1;
+	list-style: none;
+	width: 300px;
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	width: 300px;
+	
+}
+a.dropdown-item{
+	width: 300px;
+	padding: 10px;
+	background-color:#98F5FF;
+	color:#000 ;
+	font-size: 1.1em;
+	border-radius: 3px;
+	border:1px solid #000;
+
+}
+>>>>>>> baf1685252c2b0ea7f82dfaef34ad184f4db27fd
