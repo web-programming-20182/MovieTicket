@@ -1,7 +1,7 @@
 body {
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("conor-samuel-1363345-unsplash.jpg");
+    background-image: url("panda-com-1241330-unsplash.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: auto;
@@ -30,7 +30,7 @@ h1 {
     font-weight: bold;
 }
 
-
+    
 .sub-main {
     margin: 1.5vw 5vw;
 }
@@ -38,13 +38,12 @@ h1 {
 .bg-content {
     max-width: 400px;
     margin: 0 auto;
-    background: #fff;
+    background:#FEEAEB;
     text-align: center;
 }
 
 .top-content {
     padding: 2vw 4vw 4vw;
-    background: #ff4139;
 }
 
 .top-content-style img {
@@ -83,7 +82,7 @@ p.legend span {
 
 .input {
     position: relative;
-    margin: 20px auto;
+    margin: 30px auto;
     width: 100%
 }
 
@@ -189,4 +188,15 @@ button:hover {
 .normal {
     margin-top: 15px;
     font-size: 14px;
+}
+.footer
+{width: 1140px; 
+    margin-right: auto;         
+    margin-left: auto;
+    padding:10px 40px;
+    margin-top: 2vw;
+    border-top: 2px solid salmon; 
+    height: 15vw;
+    background-color: #FEEAEB;
+    font-weight: bold;
 }
