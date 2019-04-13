@@ -92,9 +92,9 @@ img.d-block{
 	margin-top: 1.5vh;
 }
 .search form{
-	margin-top: 2vh;
+	margin-top:-35px;
+	height: 110px;
 	float: right;
-	margin-bottom: 2vh;
 
 }
 .search form input{
@@ -181,7 +181,7 @@ a.dropdown-item:last-child
 .footer
 {
 	padding:10px 40px;
-	margin-top: 2vw;
+	margin-top: 50px;
 	border-top: 2px solid salmon; 
 	height: 15vw;
 	background-color: #FEEAEB;
