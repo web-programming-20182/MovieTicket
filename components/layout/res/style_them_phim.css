@@ -1,0 +1,19 @@
+.content{
+	margin-left: 20%;
+	font-size: 1.2em;
+	margin-top: 40px;
+	background-color: #FFF0F5;
+}
+textarea{
+	padding-left: 10px;
+	width: 350px;
+	height: 200px;
+	overflow: auto;
+
+}
+
+table tr td:nth-child(1){
+	color: #473C8B;
+	font-weight: 600;
+	padding-right: 50px;
+}
