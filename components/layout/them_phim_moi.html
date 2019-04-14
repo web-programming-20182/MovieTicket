@@ -16,11 +16,12 @@
    
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="res/style_them_phim.css">
 </head>
 <body>
 
 </body>
-</html>
+</html>>
 <head >
 	<title>AMovie!</title>
 </head>
@@ -158,14 +159,21 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-			<div class="content">
-				<label>Xin mời thêm phim cho rạp:</label>
-				<table>
+
+		</div>
+			<div class="row" style="background-color: #FFF0F5;">
+			
+				<div class="col-sm-10 col-md-9 content" >
+				<label style="font-size: 1.5em;font-style: italic;font-weight: 500">Xin mời thêm phim cho rạp:</label>
+				<span></span>
+				<br>
+				<br>
+				<table class="table table-hover table-responsive">
 					<form>
-						<span></span>
+						
 						<tr>
 							<td>Ảnh đại diện:</td>
-							<td><input type="file" name="Avatar" required></td>
+							<td><input type="file" name="Avatar" required class="rounded"></td>
 						</tr>
 						<tr>
 							<td>Tên phim:</td>
@@ -174,7 +182,7 @@
 						<tr>
 							<td>Thể loại:</td>
 							<td>
-								<select name="TheLoai">
+								<select name="TheLoai" class="rounded">
 									<option value="Kinhdi">Kinh dị</option>
 									<option value="HaiHuoc">Hài hước</option>
 									<option value="HanhDong">Hành động</option>
@@ -189,45 +197,46 @@
 						<tr>
 							<td>Thời lượng:</td>
 							<td>
-								<input type="text" name="hour" required>
-								<input type="text" name="minute" required>
+								<input type="text" name="hour" required style="width: 50px;" class="rounded" > :
+								<input type="text" name="minute" required style="width: 50px;" class="rounded" >
 							</td>
 						</tr>
 						<tr>
 							<td>Tóm tắt:</td>
-							<td><textarea placeholder="Nhập nội dung phim..." name="TomTat" required></textarea></td>
+							<td><textarea placeholder="Nhập nội dung phim..." name="TomTat" required class="rounded"></textarea></td>
 						</tr>
 						<tr>
 							<td>Giới hạn tuổi:</td>
 							<td>
-								<input type="radio" name="GioiHanTuoi" value="0" checked>Có
-								<input type="radio" name="GioiHanTuoi" value="1">Không
+								<input type="radio" name="GioiHanTuoi" value="0" checked>   Có&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="radio" name="GioiHanTuoi" value="1">  Không
 							</td>
 						</tr>
 						<tr>
 							<td>Ngày bắt đầu:</td>
-							<td><input type="date" name="NgayBatDau">
+							<td><input type="date" name="NgayBatDau"class="rounded" >
 							</td>
 						</tr>
 						<tr>
 							<td>Ngày kết thúc:</td>
-							<td><input type="date" name="NgayKetThuc">
+							<td><input type="date" name="NgayKetThuc" class="rounded">
 							</td>
 						</tr>
 						<tr>
 							<td></td>
 							<td>
-								<input type="submit" class="btn btn-primary" value="Thêm phim">
-								<input type="reset" class="btn btn-danger" value="Nhập lại">
+								<input type="submit" class="btn btn-primary" value="Thêm phim" style="font-size: 1.1em;">&nbsp;&nbsp;&nbsp;
+								<input type="reset" class="btn btn-danger" value="Nhập lại" style="font-size: 1.1em;">
 							</td>
 						</tr>
 					</form>
 				</table>
+				</div>
 			</div>
 			<div class="row">
 			<div class="col-sm-12 footer">
 				<div>
-						CÔNG TY TNHH CJ CGV VIETNAM </br>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</br>Địa Chỉ: Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</br>Hotline: 1900 6017 </br>COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .
+						CÔNG TY TNHH CJ CGV VIETNAM </br>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</br>Địa Chỉ: Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</br>Hotline: 1900 6017 </br>&copy;COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .
 				</div>
 			</div>
 		</div>
