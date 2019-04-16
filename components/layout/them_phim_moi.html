@@ -12,8 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link href="res/trangchu.css" rel="stylesheet">
-   
+    
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="res/style_them_phim.css">
@@ -161,29 +160,29 @@
 			</div>
 
 		</div>
-			<div class="row" style="background-color: #FFF0F5;">
-			
-				<div class="col-sm-10 col-md-9 content" >
-				<label style="font-size: 1.5em;font-style: italic;font-weight: 500">Xin mời thêm phim cho rạp:</label>
-				<span></span>
-				<br>
-				<br>
-				<table class="table table-hover table-responsive">
-					<form>
-						
-						<tr>
-							<td>Ảnh đại diện:</td>
-							<td><input type="file" name="Avatar" required class="rounded"></td>
-						</tr>
-						<tr>
-							<td>Tên phim:</td>
-							<td><input class="form-control" type="text" name="TenPhim" required></td>
-						</tr>
-						<tr>
-							<td>Thể loại:</td>
-							<td>
-								<select name="TheLoai" class="rounded">
-									<option value="Kinhdi">Kinh dị</option>
+		<div class="sub-main  ">
+            <div class="bg-content ">
+                <div class="top-content">
+                    <p class="legend">Xin mời thêm phim cho rạp: <span class="fa fa-hand-o-down"></span></p>
+                </div>
+                <form class="form-group">
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Ảnh đại diện: </p>
+                        <input type="file" name="Avatar" required class="rounded">
+
+                     </select>
+                    </div>
+
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Tên phim: </p>
+                        <input type="text" name="TenPhim" required class="form-control col-sm-9" />
+                       
+                    </div>
+
+                     <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Thể loại: </p>
+                        <select class="form-control col-sm-9" name="TheLoai" required>
+                        	<option value="Kinhdi">Kinh dị</option>
 									<option value="HaiHuoc">Hài hước</option>
 									<option value="HanhDong">Hành động</option>
 									<option value="tinhCam">Tình cảm</option>
@@ -191,50 +190,46 @@
 									<option value="GiaDinh">Gia đình</option>
 									<option value="HocDuong">Học đường</option>
 									<option value="VienTuong">Viễn tưởng</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<td>Thời lượng:</td>
-							<td>
-								<input type="text" name="hour" required style="width: 50px;" class="rounded" > :
-								<input type="text" name="minute" required style="width: 50px;" class="rounded" >
-							</td>
-						</tr>
-						<tr>
-							<td>Tóm tắt:</td>
-							<td><textarea placeholder="Nhập nội dung phim..." name="TomTat" required class="rounded"></textarea></td>
-						</tr>
-						<tr>
-							<td>Giới hạn tuổi:</td>
-							<td>
-								<input type="radio" name="GioiHanTuoi" value="0" checked>   Có&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<input type="radio" name="GioiHanTuoi" value="1">  Không
-							</td>
-						</tr>
-						<tr>
-							<td>Ngày bắt đầu:</td>
-							<td><input type="date" name="NgayBatDau"class="rounded" >
-							</td>
-						</tr>
-						<tr>
-							<td>Ngày kết thúc:</td>
-							<td><input type="date" name="NgayKetThuc" class="rounded">
-							</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>
-								<input type="submit" class="btn btn-primary" value="Thêm phim" style="font-size: 1.1em;">&nbsp;&nbsp;&nbsp;
-								<input type="reset" class="btn btn-danger" value="Nhập lại" style="font-size: 1.1em;">
-							</td>
-						</tr>
-					</form>
-				</table>
-				</div>
-			
+                         
 
-			
+                     </select>
+                    </div>
+                       
+                      <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Thời lượng: </p>
+                        <input type="text" name="hour" required style="width: 50px;" class="rounded">&nbsp;&nbsp;:&nbsp;&nbsp;
+						<input type="text" name="minute" required style="width: 50px;" class="rounded" >
+
+                     
+                    </div>
+
+ 					<div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Tóm tắt:</p>
+                        <textarea  style="height: 100px;" placeholder="Nhập nội dung phim..." name="TomTat" required class="form-control col-sm-9 rounded" ></textarea>
+                    </div>
+ 					<div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Giới hạn tuổi:</p>
+                        <input type="radio" name="GioiHanTuoi" value="0" class="input-group-text col-sm-1" checked>   Có&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="GioiHanTuoi" value="1" class="input-group-text col-sm-1">  Không
+                    </div>
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Ngày bắt đầu:</p>
+                        <input type="date" name="NgayBatDau"class="rounded" required class="form-control col-sm-9" />
+                    </div>
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Ngày kết thúc:</p>
+                        <input type="date" name="NgayKetThuc"class="rounded" required class="form-control col-sm-9" />
+                    </div>
+
+                <input type="submit" class="btn btn-primary" value="Thêm phim" style="font-size: 1.1em;">&nbsp;&nbsp;&nbsp;
+				<input type="reset" class="btn btn-danger" value="Nhập lại" style="font-size: 1.1em;">
+
+                
+            </form>
+        </div>
+        
+    </div>
+
 			<div class="col-sm-12 footer"style="margin-left: 0px;">
 				<div>
 						CÔNG TY TNHH CJ CGV VIETNAM </br>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</br>Địa Chỉ: Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</br>Hotline: 1900 6017 </br>&copy;COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .
