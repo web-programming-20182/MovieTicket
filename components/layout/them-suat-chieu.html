@@ -154,57 +154,65 @@
                     </a>
                 </div>
             </div>
-            <div class="content">
-                <label> <h3>Thêm suất chiếu cho rạp !</h3></label>
-                <table>
-                 <tr>
-                    <td> <p>Tên rạp  </p>
-                    </td>
-                    <td>
-                        <select required >
-                            <option value="tenrap">Tên rạp </option>
-                        </select>
-                    </td>  
-                </tr>
-                <tr>
-                    <td><p>Ngày chiếu</p></td>
-                    <td><input type="date" name="ngaychieu" required></td>
-                </tr>
-                <tr>
-                    <td><p>Tên phim </p></td>
-                    <td>
-                        <select required>
-                            <option value="tenphim">Tên phim </option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><p>Phòng chiếu </p></td>
-                    <td>
-                        <select required>
-                            <option value="phongchieu">Phòng chiếu
-                            </option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td> <p>Thời gian bắt đầu</p></td>
-                    <td><input type="time" name="starttime" required></td>
 
-                </tr>
-                <tr>
-                    <td> <p>Thời gian kết thúc</p></td>
-                    <td><input type="time" name="endtime"required></td>
 
-                </tr>
+<div class="sub-main  ">
+            <div class="bg-content ">
+                <div class="top-content">
+                    <p class="legend">Thêm suất chiếu cho rạp <span class="fa fa-hand-o-down"></span></p>
+                </div>
+                <form class="form-group">
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Tên rạp </p>
+                        <select class="form-control col-sm-9" required>
+                         <option value="tenrap">Tên rạp </option>
 
-                <tr>
-                 <td colspan="2">
-                    <button type="submit" class="btn btn-primary" >Thêm suất chiếu </button>
-                </td>
-            </tr>
-        </table>
+                     </select>
+                    </div>
+
+                    <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Ngày chiếu </p>
+                        <input type="date" name="ngaychieu" required class="form-control col-sm-9" />
+                    </div>
+
+                     <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Tên phim </p>
+                        <select class="form-control col-sm-9" required>
+                         <option value="tenphimm">Tên phim</option>
+
+                     </select>
+                    </div>
+                       
+                        <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3"> Phòng chiếu </p>
+                        <select class="form-control col-sm-9" required>
+                         <option value="phongchieu">Phòng chiếu </option>
+
+                     </select>
+                    </div>
+
+ <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Thời gian bắt đầu  </p>
+                        <input type="time" name="starttime" required class="form-control col-sm-9" />
+                    </div>
+ <div class="input-group form-inline">
+                        <p class="input-group-text col-sm-3">Thời gian kết thúc </p>
+                        <input type="time" name="endtime" required class="form-control col-sm-9" />
+                    </div>
+
+                <button type="submit" class="">
+                  Thêm suất chiếu
+                    <!-- <span class="fa fa-sign-in-alt"></span> -->
+                </button>
+
+                
+            </form>
+        </div>
+        
     </div>
+
+
+
     <div class="footer">
     CÔNG TY TNHH CJ CGV VIETNAM </br>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</br>Địa Chỉ: Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</br>Hotline: 1900 6017 </br>COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .
 </div>
