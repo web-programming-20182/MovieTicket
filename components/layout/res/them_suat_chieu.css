@@ -192,8 +192,12 @@ a.dropdown-item:last-child
 
 .sub-main {
     width: 1140px;
+<<<<<<< HEAD
 	margin-left: -15px;
 	
+=======
+    margin-left: -15px;
+>>>>>>> f6e592a03f0ce7c4e2cf9c80b03912e68eaa8178
 }
 
 h1 {
@@ -264,8 +268,12 @@ p.legend span {
     /* max-width: 400px; */
     margin: 0 auto;
    background:#FEEAEB;
+<<<<<<< HEAD
 	text-align: center;
 	padding-top:  5vw ;
+=======
+    text-align: center;
+>>>>>>> f6e592a03f0ce7c4e2cf9c80b03912e68eaa8178
 }
 .form-group {
     width: 70%;
