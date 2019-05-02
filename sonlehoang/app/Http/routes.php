@@ -24,3 +24,12 @@ Route::get('accessfalse',['as'=>'accessfalse',function(){
 	return view('admin/loginfalse');
 }]);
 
+Route::group(['prefix'=>'admin'],function(){
+	Route::group(['prefix'=>'phim'],function(){
+		Route::get('them',['as'=>'getthem','uses'=>'PhimController@getthem']);
+		Route::post('thempost',['as'=>'themphimpost','uses'=>'PhimController@store']);
+
+	});
+
+});
+
