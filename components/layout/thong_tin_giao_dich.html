@@ -182,16 +182,16 @@
 		<div class="filter">
 			
 			<label class="radio-inline">
-				<input type="radio" name="optradio">Đã giao dịch 
+				<input type="radio" name="optradio"><b> &nbsp;Đã giao dịch </b>
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="optradio">Chưa giao dịch 
+				<input type="radio" name="optradio"> <b>&nbsp;Chưa giao dịch </b>
 			</label>
 		</div>
-		<div class="search">
-			<div class="row col-10">
-					<input type="text" class="form-control col-9" placeholder="Mời nhập tên phim, mã phim, mã suất chiếu, mã giao dịch...">
-					<button type="button" class=" col-3 btn btn-light "><i  class="fa fa-search"></i>&nbsp;Tìm kiếm</button> 
+		<div class="search_button">
+			<div class="row">
+					<input type="text" class="form-control col-8" placeholder="Mời nhập tên phim, mã phim, mã suất chiếu, mã giao dịch...">
+					<button type="button" class=" col-2 btn btn-secondary "><i  class="fa fa-search"></i>&nbsp;Tìm kiếm</button> 
 					
 				</div>	
 				</div>
@@ -199,6 +199,51 @@
 
 
 	</div>
+
+
+
+<div class="info_detail">
+	<form class="form-group">
+<div class="input-group form-inline">
+						<input type="hidden" name="stt" class="form-control col-sm-9"  />
+					</div>
+
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Mã giao dịch </p>
+						<input type="text" name="MaGiaoDich" class="form-control col-sm-9" disabled />
+					</div>
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Mã vé </p>
+						<input type="text" name="MaVe" class="form-control col-sm-9" disabled />
+					</div>
+
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Tên rạp </p>
+						<input type="text" name="TenRap" class="form-control col-sm-9"disabled />
+					</div>
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Tên phim  </p>
+						<input type="text" name="TenPhim" class="form-control col-sm-9"disabled />
+					</div>
+
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Suất chiếu </p>
+						<input type="time" name="SuatChieu" class="form-control col-sm-9"disabled />
+					</div>
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3">Ghế </p>
+						<input type="text" name="Ghe" class="form-control col-sm-9" disabled />
+
+					</div>
+					<div class="input-group form-inline">
+						<p class="input-group-text col-sm-3"> Giá vé</p>
+						<input type="text" name="GiaVe" class="form-control col-sm-9" disabled />
+						
+					</div>
+
+				</form>
+			</div>
+
 </div>
 
 	<div class="col-sm-12 footer"style="margin-left: 0px;">

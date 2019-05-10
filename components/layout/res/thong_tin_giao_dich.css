@@ -380,12 +380,31 @@ a.dropdown-item:last-child
 }
 .filter-search
 {
-	background-color: #a0a0a0;
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
-	margin-top: 40px;
-	height:120px;
-	padding:1em;
+	margin-top: -100px;
+	height:180px;
+	padding:2em;
 	text-align: center;
+}
+.radio-inline{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.search_button{
+padding: 2em;
+}
+.search_button input
+{
+	margin-right: 20px;
+}
+.search_button .row
+{
+justify-content: center;
+}
+.info_detail
+{
+	margin-top: -64px;
 }
