@@ -40,7 +40,7 @@
                         </div>
                     </li>
                     <li class="nav-item menu-item">
-                        <a class="nav-link" href="#">Danh sách rạp</a>
+                        <a class="nav-link" href="{{ route('danhsachrap') }}">Danh sách rạp</a>
                     </li>
                     <li class="nav-item menu-item">
                         <a class="nav-link" href="#">Thành viên</a>

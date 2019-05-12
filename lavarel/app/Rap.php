@@ -19,5 +19,19 @@ class Rap extends Model
 
 	];
 	public $timestaps= false;
+      public function phim()
+    {
+        return $this->hasMany(Phim::class);
+    }
+    public function phongchieu()
+    {
+        return $this->hasMany(Phongchieu::class);
+    }
+    public function Suatchieu()
+    {
+        return $this->hasMany(Suatchieu::class);
+    }
+    
+
     //
 }

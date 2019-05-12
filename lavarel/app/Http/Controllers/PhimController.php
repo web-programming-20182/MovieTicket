@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Phim;
+use App\Rap;
+use App\Phongchieu;
 
 class PhimController extends Controller
 {
@@ -62,6 +64,7 @@ class PhimController extends Controller
     {
         return view('phim.themsuatchieu');
     }
+    
 
     // public function postAdd(Request $request)
     // {
@@ -110,5 +113,4 @@ class PhimController extends Controller
     //     return back()->with('status','Bạn đã cập nhật thành công.');
     // }
 
-    
 }

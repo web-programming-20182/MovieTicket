@@ -49,3 +49,6 @@ Route::get('themsuatchieu','PhimController@getthemsuatchieu')->name('getthemsuat
 Route::post('themsuatchieu','PhimController@themsuatchieu')->name('postthemsuatchieu');
 
 
+Route::get('danhsachrap','DanhsachController@listrap')->name('danhsachrap');
+
+
