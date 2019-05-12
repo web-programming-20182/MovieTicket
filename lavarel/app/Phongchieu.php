@@ -16,5 +16,17 @@ class Phongchieu extends Model
 
 	];
 	public $timestaps= false;
+	public function phim()
+	{
+		return $this->belongsTo(Phim::class);
+	}
+	public function rap()
+	{
+		return $this->belongsTo(Rap::class);
+	}
+	public function suatchieu()
+	{
+		return $this->hasMany(Suatchieu::class);
+	}
     //
 }

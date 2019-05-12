@@ -62,9 +62,24 @@ class PhimController extends Controller
     }
     public function getthemsuatchieu()
     {
+        $raps=Rap::all();
+        $phims=Phim::all();
+        $phongchieus=Phongchieu::all();
         return view('phim.themsuatchieu');
     }
-    
+    public function postthemsuatchieuphim(Request $request)
+    {
+        //Bỏ qua phần require nó
+        //Chính xác là validate nó
+        'TenRap' =>$request->rap;
+        // 'NgayChieu'=>$request->ngaychieu;
+        'TenPhim'=>$request->phim;
+        'PhongChieu'=>$request->phongchieu;
+        // 'NgayBatDau'=>$request->ngaybatdau;
+        // 'NgayKetThuc'=>$request->ngayketthuc;
+
+        
+    }
 
     // public function postAdd(Request $request)
     // {

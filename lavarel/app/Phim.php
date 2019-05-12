@@ -20,6 +20,20 @@ class Phim extends Model
 
 	];
 	public $timestaps= false;
+     public function rap()
+    {
+        return $this->belongsTo(Rap::class);
+    }
+    public function phongchieu()
+    {
+        return $this->hasMany(Phongchieu::class);
+    }
+    public funtion suatchieu()
+    {
+        return $this->hasMany(Suatchieu::class);
+    }
+    
+
 
     //
 }
