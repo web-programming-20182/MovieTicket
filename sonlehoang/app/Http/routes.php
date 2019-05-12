@@ -33,3 +33,15 @@ Route::group(['prefix'=>'admin'],function(){
 
 });
 
+Route::group(['prefix'=>'Ve'],function(){
+	Route::group(['prefix'=>'DatVe'],function(){
+		Route::get('Them/{movieid}',['as'=>'vegetthem','uses'=>'VeController@getthem']);
+		Route::post('Thempost',['as'=>'vethempost','uses'=>'VeController@store']);
+		Route::get('getMapAjax/{suatchieuid}',['as'=>'getmapajax','uses'=>'VeController@getmap']);
+	});
+});
+
+Route::group(['prefix'=>'Rap'],function(){
+	Route::get('getRapbyThanhPhoAjax/{thanhpho}',['as'=>'getrapbythanhphoajax','uses'=>'RapController@getAjaxRapThanhPho']);
+});
+

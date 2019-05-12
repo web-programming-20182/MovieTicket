@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{asset('css/style_them_phim.css')}}">
-
     @yield('css')
 </head>
 <body>
@@ -37,7 +36,6 @@
 
 @include('admin.layout.footer')
 </div>
-
 @yield('script')
 </body>
 </html>
