@@ -58,6 +58,10 @@ class PhimController extends Controller
         return redirect(route('phim.list'));
 
     }
+    public function getthemsuatchieu()
+    {
+        return view('phim.themsuatchieu');
+    }
 
     // public function postAdd(Request $request)
     // {

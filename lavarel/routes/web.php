@@ -45,5 +45,7 @@ Route::post('thanhvien/delete', 'ThanhvienController@postdelete')->name('postdel
 
 Route::get('lienhe', 'LienheController@getlienhe')->name('getlienhe');
 Route::post('lienhe', 'LienheController@postlienhe')->name('postlienhe');
+Route::get('themsuatchieu','PhimController@getthemsuatchieu')->name('getthemsuatchieu');
+Route::post('themsuatchieu','PhimController@themsuatchieu')->name('postthemsuatchieu');
 
 

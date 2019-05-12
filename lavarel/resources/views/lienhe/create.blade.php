@@ -2,19 +2,21 @@
 @section('content')
 <div class="container">
 	
-	<h1 class="text-center"> Điền form đăng kí để chúng tôi có thể liên hệ hỗ trợ các bạn</h1>
+	<h1 class="text-center " style="color: red"> Điền form đăng kí để chúng tôi có thể liên hệ hỗ trợ các bạn</h1>
 	<div class="row">
-		<div class="col-md-6 col-md-offset-2">
+		<div class="col-md-8 col-md-offset-2">
 			@if (session('status'))
                 
                     {{ session('status') }}
                 
             @endif
 			
-			<form action="{{  route('postlienhe') }}" method="POST" role="form">
+			<form  action="{{  route('postlienhe') }}" method="POST" role="form">
 				 {!! csrf_field() !!}
                  {{ method_field('POST') }}
-				<legend>LIÊN HỆ</legend>
+				<legend align="center">LIÊN HỆ</legend>
+				<br>
+				<br>
 				<div class="form-group">
 					<label for="">Họ và tên</label>
 					<input type="text" class="form-control" name="id" placeholder="Họ và tên">
